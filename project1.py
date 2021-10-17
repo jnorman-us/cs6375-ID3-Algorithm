@@ -4,8 +4,7 @@ import pandas as pd
 import argparse
 
 def cal_best_partition(df, partion):
-   print(partition)
-   print('Partition Z was replaced with partitions Z1,Z2 using Feature A3')
+    # TO DO, partition the data based on the entropy of the selected arguments (picking the max split possible).
    return partition
 
 if __name__ == "__main__":
